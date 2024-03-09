@@ -1,5 +1,5 @@
 # riskingMyProfile
 PleaseDon'tSueMe
-<br>
-Become a Racist: <br>
+<br><br>
+<br><i>Become a Racist:<i><b> <br>
 https://ken-710.github.io/riskingMyProfile/
