@@ -3,15 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="/img/sweaty.jpg">
+    <link rel="icon" type="image/x-icon" href="img/sweaty.jpg" />
     <title>Racism</title>
   </head>
   <body>
+    <audio id="vine-boom" src="vine-boom.mp3"></audio>
     <div class="box">
-      <a href="pages/i.html">
-      <img class="img" src="img/N.gif" alt="N" />
-    </a>
+        <a href="pages/i.html" target="_blank">
+          <img class="img" src="img/N.gif" alt="N" />
+        </a>
     </div>
+
+    <script>
+      const boxElement = document.querySelector('.box');
+      const audioElement = document.getElementById('vine-boom');
+    
+      boxElement.addEventListener('click', () => {
+          audioElement.currentTime = 0;
+          audioElement.play();
+      });
+    </script>
+
     <style>
       body {
         margin: 0;
@@ -24,10 +36,9 @@
         height: 300px;
         margin: 180px auto 0;
         position: relative;
-        background-image: url(N.gif);
       }
 
-      .img{
+      .img {
         width: 300px;
         height: 300px;
       }
@@ -74,5 +85,6 @@
         }
       }
     </style>
+
   </body>
 </html>
